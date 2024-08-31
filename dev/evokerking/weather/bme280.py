@@ -1,7 +1,3 @@
-import bme280
-import smbus2
-from time import sleep
-
 
 # Create the BME280 sensor object
 import bme280

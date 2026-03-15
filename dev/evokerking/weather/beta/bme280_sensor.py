@@ -4,7 +4,7 @@ import smbus2 # Import the SMBus module of the I2C library
 
 # Create the BME280 sensor object
 
-class sensor.bme280{
+class bme280{
     def init ():
         port = 1
         address = 0x77 # Adafruit BME280 address. Other BME280s may be different

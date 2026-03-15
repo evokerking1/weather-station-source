@@ -25,4 +25,4 @@ class bme280() :
     def get.humidity():
         bme280_data = bme280.sample(bus, address)
         humidity = bme280.sample
-}
+

@@ -1,7 +1,7 @@
 from gpiozero import Button
 #import math
 from time import sleep
-
+import statistics
 
 wind_speed_sensor = Button(5)
 wind_count = 0
@@ -21,6 +21,7 @@ def spin():
 #    speed = dist_cm / wind_interval
 #    print(speed)
 
+wind_speed_sensor.when_pressed = spin
 
 while True:
     spin()

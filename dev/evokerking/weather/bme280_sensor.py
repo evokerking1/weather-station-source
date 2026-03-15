@@ -18,4 +18,4 @@ def read_bme280():
     print(humidity, pressure, ambient_temperature)
     return humidity, pressure, ambient_temperature
 
-read_bme280
+read_bme280()
